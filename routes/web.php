@@ -19,6 +19,10 @@ Route::get('/portfolio', function () {
     $produtos = App\Produto::all();
     return view('portfolio', compact(['produtos']));
 });
+Route::get('/contato', function () {
+    return view('contact-us');
+});
+
 
 Auth::routes();
 

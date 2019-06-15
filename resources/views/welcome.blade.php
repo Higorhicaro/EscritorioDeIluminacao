@@ -69,7 +69,7 @@
                 <li><a href="about-us.html">Empresa</a></li>
                 <li><a href="services.html">Projetos</a></li>
                 <li><a href="/portfolio">Produtos</a></li>
-                <li><a href="contact-us.html">Contato</a></li>
+                <li><a href="/contato">Contato</a></li>
                 <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
             </ul>
         </div>
@@ -250,30 +250,30 @@
             <div class="row">
                 <div class="col-md-3 col-xs-6">
                     <div class="center bounce-in">
-                        <span class="stat-icon"><span class="pe-7s-timer bounce-in"></span></span>
-                        <h1><span class="counter">246000</span></h1>
-                        <h3>HOURS SAVED</h3>
+                        <span class="stat-icon"><span class="pe-7s-map-marker bounce-in"></span></span>
+                        <h1><span class="counter">40</span></h1>
+                        <h3>ESCRITÓRIOS</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-6">
                     <div class="center bounce-in">
                         <span class="stat-icon"><span class="pe-7s-light bounce-in"></span></span>
-                        <h1><span class="counter">16875</span></h1>
-                        <h3>FRESH IDEAS</h3>
+                        <h1><span class="counter">1.345</span></h1>
+                        <h3>PROJETOS</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-6">
                     <div class="center bounce-in">
-                        <span class="stat-icon"><span class="pe-7s-graph1 bounce-in"></span></span>
-                        <h1><span class="counter">99999999</span></h1>
-                        <h3>HUGE PROFIT</h3>
+                        <span class="stat-icon"><span class="pe-7s-cart bounce-in"></span></span>
+                        <h1><span class="counter">321</span></h1>
+                        <h3>PRODUTOS</h3>
                     </div>
                 </div>
                 <div class="col-md-3 col-xs-6">
                     <div class="center bounce-in">
-                        <span class="stat-icon"><span class="pe-7s-box2 bounce-in"></span></span>
-                        <h1><span class="counter">54875</span></h1>
-                        <h3>THINGS IN BOXES</h3>
+                        <span class="stat-icon"><span class="pe-7s-date bounce-in"></span></span>
+                        <h1><span class="counter">15</span></h1>
+                        <h3>ANOS DE EXPERIÊNCIA</h3>
                     </div>
                 </div>
             </div>
@@ -379,48 +379,6 @@
                     </div>
                 </li><!--/.portfolio-item-->
             </ul>
-        </div>
-    </section>
-
-
-
-
-    <section id="contact" class="white">
-        <div class="container">
-            <div class="gap"></div>
-            <div class="center gap fade-down section-heading">
-                <h2 class="main-title">Get In Touch</h2>
-                <hr>
-                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-            </div>
-            <div class="gap"></div>
-            <div class="row">
-                <div class="col-md-4 fade-up">
-                    <h3>Contact Information</h3>
-                    <p><span class="icon icon-home"></span>Time Square, New York<br/>
-                        <span class="icon icon-phone"></span>+36 65984 405<br/>
-                        <span class="icon icon-mobile"></span>+36 65984 405<br/>
-                        <span class="icon icon-envelop"></span> <a href="#">email@infinityteam.com</a> <br/>
-                        <span class="icon icon-twitter"></span> <a href="#">@infinityteam.com</a> <br/>
-                        <span class="icon icon-facebook"></span> <a href="#">Infinity Agency</a> <br/>
-                    </p>
-                </div><!-- col -->
-
-                <div class="col-md-8 fade-up">
-                    <h3>Drop Us A Message</h3>
-                    <br>
-                    <br>
-                    <div id="message"></div>
-                    <form method="post" action="sendemail.php" id="contactform">
-                        <input type="text" name="name" id="name" placeholder="Name" />
-                        <input type="text" name="email" id="email" placeholder="Email" />
-                        <input type="text" name="website" id="website" placeholder="Website" />
-                        <textarea name="comments" id="comments" placeholder="Comments"></textarea>
-                        <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Submit" />
-                    </form>
-                </div><!-- col -->
-            </div><!-- row -->
-            <div class="gap"></div>
         </div>
     </section>
 </div>

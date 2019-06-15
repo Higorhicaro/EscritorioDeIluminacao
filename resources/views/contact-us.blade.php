@@ -35,8 +35,8 @@
         $("#mapwrapper").gMap({ controls: false,
             scrollwheel: false,
             markers: [{
-                latitude:40.7566,
-                longitude: -73.9863,
+                latitude: -5.831852,
+                longitude: -35.205485,
             icon: { image: "assets/images/marker.png",
                 iconsize: [44,44],
                 iconanchor: [12,46],
@@ -46,8 +46,8 @@
                 iconsize: [26, 46],
                 iconanchor: [12, 46],
                 infowindowanchor: [12, 0] },
-            latitude:40.7566,
-            longitude: -73.9863,
+            latitude: -5.831852,
+            longitude: -35.205485,
             zoom: 14 });
     });
     </script>
@@ -90,10 +90,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="center gap fade-down section-heading">
-                                    <h2 class="main-title">Nossos produtos</h2>
+                                    <h2 class="main-title">Entre em contato</h2>
                                     <hr>
-                                    <p>Buscando sempre a excelência em cada detalhe, nossos produtos chegam
-                                    ao mercado com o que existe de mais moderno no segmento</p>
+                                    <p>Queremos saber do que você precisa e como podemos ajudar</p>
                                 </div>
                             </div>
                         </div>
@@ -104,31 +103,39 @@
     </section><!--/#main-slider-->
 
     <div id="content-wrapper">
-        <section id="portfolio" class="white">
+        <div>
+        </div>
+        <section id="contact" class="white">
             <div class="container">
                 <div class="gap"></div>
-                    <div class="center gap fade-down section-heading">
-                        <h2 class="main-title">Exemplo de nossa lista de items</h2>
-                        <hr>
-                        <p>Eficiênca, elegância e qualidade</p>
-                    </div>
+                <div class="row">
+                    <div class="col-md-4 fade-up">
+                        <h3>Dados para contato</h3>
+                        <p><span class="icon icon-home"><i class="fa fa-building"></i></span> Avendida Alan Turing, 1912<br/>
+                            <span class="icon icon-phone"><i class="fa fa-phone"></i></span>(84) 65984-4053<br/>
+                            <span class="icon icon-envelop"><i class="fa fa-globe"></i></span> <a href="#">sac@escritorioiluminicacao.com</a> <br/>
+                            <span class="icon icon-twitter"><i class="fa fa-twitter"></i></span> <a href="#">@escritorioiluminicacao</a> <br/>
+                            <span class="icon icon-facebook"><i class="fa fa-facebook"></i></span> <a href="#">DevWeb Agência</a> <br/>
+                        </p>
+                    </div><!-- col -->
 
-                    <ul class="portfolio-items col-3 isotope fade-up">
-                        @foreach($produtos as $p)
-                        <li class="portfolio-item apps isotope-item">
-                            <div class="item-inner">
-                                <img src="assets/images/produtos/{{ $p->foto }}" alt="">
-                                <h5>{{ $p->nome }}</h5>
-                                <div class="overlay">
-                                    <a class="preview btn btn-outlined btn-primary" href="assets/images/produtos/{{ $p->foto }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                                </div>
-                            </div>
-                        </li><!--/.portfolio-item-->
-                        @endforeach
-                        <!--/.portfolio-item-->
-                    </ul>
-                </div>
-            </section>
+                    <div class="col-md-8 fade-up">
+                        <h3>Deixe-nos uma mensagem</h3>
+                        <br>
+                        <br>
+                        <div id="message"></div>
+                        <form method="post" action="sendemail.php" id="contactform">
+                            <input type="text" name="name" id="name" placeholder="Nome" />
+                            <input type="text" name="email" id="email" placeholder="Email" />
+                            <input type="text" name="website" id="website" placeholder="Assunto" />
+                            <textarea name="comments" id="comments" placeholder="Comentários"></textarea>
+                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Enviar" />
+                        </form>
+                    </div><!-- col -->
+                </div><!-- row -->
+                <div class="gap"></div>
+            </div>
+        </section>
     </div>
 
     <div id="footer-wrapper">
