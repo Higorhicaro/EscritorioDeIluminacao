@@ -29,7 +29,7 @@ class RepresentantesTableSeeder extends Seeder
                 'foto' => 'rep02.jpg'
             ],
             [
-                'nome' => 'CARLOS SILVA',
+                'nome' => 'ALEXANDRE QUEIROZ',
                 'email' => 'carlossilva.rep@hotmail.com',
                 'telefone' => '(11) 98133-2233',
                 'cidade' => 'SÃO PAULO',

@@ -12,7 +12,12 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    $representantes = App\Representante::all();
+    return view('welcome', compact(['representantes']));
+});
+Route::get('/portfolio', function () {
+    $produtos = App\Produto::all();
+    return view('portfolio', compact(['produtos']));
 });
 
 Auth::routes();
