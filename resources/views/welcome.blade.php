@@ -61,7 +61,7 @@
                 <span class="sr-only">Toggle navigation</span>
                 <i class="fa fa-bars"></i>
             </button>
-            <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> DEVWEB</h1></a>
+            <a class="navbar-brand" href="/"><h1><span class="pe-7s-gleam bounce-in"></span> DEVWEB</h1></a>
         </div>
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
@@ -88,7 +88,7 @@
                                 <h2 class="boxed animation animated-item-1 fade-down">Escritório de Iluminação</h2><br>
                                 <p class="boxed animation animated-item-2 fade-up">Soluções em iluminação para projetos urbandos e residenciais</p>
                                 <br>
-                                <a class="btn btn-md animation bounce-in" href="#services">Learn More</a>
+                                <a class="btn btn-md animation bounce-in" href="#services">VEJA MAIS</a>
                             </div>
                         </div>
                     </div>
@@ -214,7 +214,7 @@
             <div class="center gap fade-down section-heading">
                 <h2 class="main-title">Representantes</h2>
                 <hr>
-                <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
+                <p>EQUIPE TREINADA PARA PRESTAR O MELHOR ATENDIMENTO</p>
             </div>
             <div class="gap"></div>
 

@@ -67,7 +67,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
+                <a class="navbar-brand" href="/"><h1><span class="pe-7s-gleam bounce-in"></span> DEVWEB</h1></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -117,92 +117,9 @@
                     </div>
                 </div>
                <div class="gap"></div>
-                <div class="row fade-up">
-                    <div class="col-md-6">
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="http://placehold.it/400x400">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="http://placehold.it/400x400">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="http://placehold.it/400x400">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                        <div class="testimonial-list-item">
-                        <img class="pull-left img-responsive quote-author-list" src="http://placehold.it/400x400">
-                            <blockquote>
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
-                                <small>Manager at <cite title="Source Title">Company</cite></small>
-                            </blockquote>
-                        </div>
-                    </div>
-                </div>
 
                 <div class="gap"></div>
-                <div class="center gap fade-down section-heading">
-                    <h2 class="main-title">Meet The Team</h2>
-                    <hr>
-                    <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
-                </div>
-                <div class="gap"></div>
 
-                <div id="meet-the-team" class="row">
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center team-member">
-                            <img class="img-responsive img-thumbnail bounce-in" src="http://placehold.it/400x400" alt="">
-                            <div class="team-content fade-up">
-                                <h5>Daniel Jones<small class="role muted">Web Design</small></h5>
-                                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                                <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center team-member">
-                            <img class="img-responsive img-thumbnail bounce-in" src="http://placehold.it/400x400" alt="">
-                            <div class="team-content fade-up">
-                                <h5>John Smith<small class="role muted">Marketing Director</small></h5>
-                                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                                <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center team-member">
-                            <img class="img-responsive img-thumbnail bounce-in" src="http://placehold.it/400x400" alt="">
-                            <div class="team-content fade-up">
-                                <h5>Dave Gorman<small class="role muted">Web Design</small></h5>
-                                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                                <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-xs-6">
-                        <div class="center team-member">
-                            <img class="img-responsive img-thumbnail bounce-in" src="http://placehold.it/400x400" alt="">
-                            <div class="team-content fade-up">
-                                <h5>Steve Smith<small class="role muted">Sales Assistant</small></h5>
-                                <p>Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor.</p>
-                                <a class="btn btn-social btn-facebook" href="#"><i class="fa fa-facebook"></i></a> <a class="btn btn-social btn-google-plus" href="#"><i class="fa fa-google-plus"></i></a> <a class="btn btn-social btn-twitter" href="#"><i class="fa fa-twitter"></i></a> <a class="btn btn-social btn-linkedin" href="#"><i class="fa fa-linkedin"></i></a>
-                            </div>
-                        </div>
-                    </div>
-                </div><!--/#meet-the-team-->
                 <div class="gap"></div>
                 <div class="gap"></div>
             </div>
