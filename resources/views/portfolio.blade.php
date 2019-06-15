@@ -72,8 +72,8 @@
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
                     <li><a href="/">Home</a></li>
-                    <li><a href="about-us.html">Empresa</a></li>
-                    <li><a href="services.html">Projetos</a></li>
+                    <li><a href="/sobre">Empresa</a></li>
+                    <li><a href="/projetos">Projetos</a></li>
                     <li><a href="/portfolio">Produtos</a></li>
                     <li><a href="/contato">Contato</a></li>
                     <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>

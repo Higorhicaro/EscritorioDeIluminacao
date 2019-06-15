@@ -22,7 +22,13 @@ Route::get('/portfolio', function () {
 Route::get('/contato', function () {
     return view('contact-us');
 });
-
+Route::get('/sobre', function () {
+    return view('about-us');
+});
+Route::get('/projetos', function () {
+    $projetos = App\Projeto::all();
+    return view('services', compact(['projetos']));
+});
 
 Auth::routes();
 

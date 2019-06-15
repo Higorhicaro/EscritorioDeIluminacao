@@ -35,8 +35,8 @@
         $("#mapwrapper").gMap({ controls: false,
             scrollwheel: false,
             markers: [{
-                latitude: -5.831852,
-                longitude: -35.205485,
+                latitude:40.7566,
+                longitude: -73.9863,
             icon: { image: "assets/images/marker.png",
                 iconsize: [44,44],
                 iconanchor: [12,46],
@@ -46,8 +46,8 @@
                 iconsize: [26, 46],
                 iconanchor: [12, 46],
                 infowindowanchor: [12, 0] },
-            latitude: -5.831852,
-            longitude: -35.205485,
+            latitude:40.7566,
+            longitude: -73.9863,
             zoom: 14 });
     });
     </script>
@@ -67,7 +67,7 @@
                     <span class="sr-only">Toggle navigation</span>
                     <i class="fa fa-bars"></i>
                 </button>
-                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> DEVWEB</h1></a>
+                <a class="navbar-brand" href="index.html"><h1><span class="pe-7s-gleam bounce-in"></span> IMPACT</h1></a>
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-right">
@@ -90,9 +90,9 @@
                         <div class="row">
                             <div class="col-md-12">
                                 <div class="center gap fade-down section-heading">
-                                    <h2 class="main-title">Entre em contato</h2>
+                                    <h2 class="main-title">Our Services</h2>
                                     <hr>
-                                    <p>Queremos saber do que você precisa e como podemos ajudar</p>
+                                    <p>Of an or game gate west face shed. ﻿no great but music too old found arose.</p>
                                 </div>
                             </div>
                         </div>
@@ -103,39 +103,30 @@
     </section><!--/#main-slider-->
 
     <div id="content-wrapper">
-        <div>
-        </div>
-        <section id="contact" class="white">
+        <section id="portfolio" class="white">
             <div class="container">
                 <div class="gap"></div>
-                <div class="row">
-                    <div class="col-md-4 fade-up">
-                        <h3>Dados para contato</h3>
-                        <p><span class="icon icon-home"><i class="fa fa-building"></i></span> Avendida Alan Turing, 1912<br/>
-                            <span class="icon icon-phone"><i class="fa fa-phone"></i></span>(84) 65984-4053<br/>
-                            <span class="icon icon-envelop"><i class="fa fa-globe"></i></span> <a href="#">sac@escritorioiluminicacao.com</a> <br/>
-                            <span class="icon icon-twitter"><i class="fa fa-twitter"></i></span> <a href="#">@escritorioiluminicacao</a> <br/>
-                            <span class="icon icon-facebook"><i class="fa fa-facebook"></i></span> <a href="#">DevWeb Agência</a> <br/>
-                        </p>
-                    </div><!-- col -->
-
-                    <div class="col-md-8 fade-up">
-                        <h3>Deixe-nos uma mensagem</h3>
-                        <br>
-                        <br>
-                        <div id="message"></div>
-                        <form method="post" action="sendemail.php" id="contactform">
-                            <input type="text" name="name" id="name" placeholder="Nome" />
-                            <input type="text" name="email" id="email" placeholder="Email" />
-                            <input type="text" name="website" id="website" placeholder="Assunto" />
-                            <textarea name="comments" id="comments" placeholder="Comentários"></textarea>
-                            <input class="btn btn-outlined btn-primary" type="submit" name="submit" value="Enviar" />
-                        </form>
-                    </div><!-- col -->
-                </div><!-- row -->
-                <div class="gap"></div>
+                <div class="center gap fade-down section-heading">
+                    <h2 class="main-title">Examples Of Excellence</h2>
+                    <hr>
+                    <p>She evil face fine calm have now. Separate screened he outweigh of distance landlord.</p>
+                </div>
+                <ul class="portfolio-items col-3 isotope fade-up">
+                    @foreach($projetos as $p)
+                    <li class="portfolio-item apps isotope-item">
+                        <div class="item-inner">
+                            <img src="assets/images/projetos/{{ $p->foto }}" alt="">
+                            <h5>{{ $p->nome }}</h5>
+                            <div class="overlay">
+                                <a class="preview btn btn-outlined btn-primary" href="assets/images/projetos/{{ $p->foto }}" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
+                            </div>
+                        </div>
+                    </li><!--/.portfolio-item-->
+                    @endforeach
+                </ul>
             </div>
         </section>
+
     </div>
 
     <div id="footer-wrapper">

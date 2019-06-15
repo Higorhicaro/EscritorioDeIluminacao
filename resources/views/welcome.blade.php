@@ -66,8 +66,8 @@
         <div class="collapse navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                 <li><a href="/">Home</a></li>
-                <li><a href="about-us.html">Empresa</a></li>
-                <li><a href="services.html">Projetos</a></li>
+                <li><a href="/sobre">Empresa</a></li>
+                <li><a href="/projetos">Projetos</a></li>
                 <li><a href="/portfolio">Produtos</a></li>
                 <li><a href="/contato">Contato</a></li>
                 <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
@@ -281,106 +281,7 @@
         <div class="gap"></div>
     </section>
 
-    <section id="portfolio" class="white">
-        <div class="container">
-            <div class="gap"></div>
-            <div class="center gap fade-down section-heading">
-                <h2 class="main-title">Examples Of Excellence</h2>
-                <hr>
-                <p>She evil face fine calm have now. Separate screened he outweigh of distance landlord.</p>
-            </div>
-            <ul class="portfolio-filter fade-down center">
-                <li><a class="btn btn-outlined btn-primary active" href="#" data-filter="*">All</a></li>
-                <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".apps">Apps</a></li>
-                <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".nature">Nature</a></li>
-                <li><a class="btn btn-outlined btn-primary" href="#" data-filter=".design">Design</a></li>
-            </ul><!--/#portfolio-filter-->
 
-            <ul class="portfolio-items col-3 isotope fade-up">
-                <li class="portfolio-item apps isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio01.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio01.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item joomla nature isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio02.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio02.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item bootstrap design isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio03.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio03.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item joomla design apps isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio04.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio04.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item joomla apps isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio05.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio05.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item wordpress nature isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio06.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio06.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item joomla design apps isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio07.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio07.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item joomla nature isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio08.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio08.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-                <li class="portfolio-item wordpress design isotope-item">
-                    <div class="item-inner">
-                        <img src="assets/images/portfolio/folio09.jpg" alt="">
-                        <h5>Portfolio Project</h5>
-                        <div class="overlay">
-                            <a class="preview btn btn-outlined btn-primary" href="assets/images/portfolio/folio09.jpg" rel="prettyPhoto"><i class="fa fa-eye"></i></a>
-                        </div>
-                    </div>
-                </li><!--/.portfolio-item-->
-            </ul>
-        </div>
-    </section>
 </div>
 
 <div id="footer-wrapper">
@@ -400,6 +301,7 @@
                             <li><a href="#">Meet The Team</a></li>
                             <li><a href="#">Our Awesome Partners</a></li>
                             <li><a href="#">Our Services</a></li>
+                            <li><span class="search-trigger"><i class="fa fa-search"></i></span></li>
                         </ul>
                     </div>
                 </div><!--/.col-md-3-->
